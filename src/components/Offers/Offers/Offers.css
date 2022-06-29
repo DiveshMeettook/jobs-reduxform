@@ -1,0 +1,15 @@
+@media screen and (max-width: 620px) {
+  #divAccordionSummary {
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+  #dayFilter {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+}
+
+#divAccordionSummary:hover {
+  background-color: #e0e0e0;
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 620px) {
+  #descriptionText,
+  #missionText,
+  #profileText,
+  #howToApplyText,
+  #remarkText {
+    font-size: 13px;
+  }
+  #missionTitle,
+  #profileTitle,
+  #howToApplyTitle {
+    font-size: 16px;
+  }
+}

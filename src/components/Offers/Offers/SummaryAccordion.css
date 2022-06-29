@@ -1,0 +1,96 @@
+#divSummary {
+  display: flex;
+  flex-direction: row;
+}
+
+#divMainInfo {
+  display: flex;
+  width: 65%;
+}
+
+#divLogo {
+  background-image: url("../../images/logo5.png");
+  background-size: contain;
+  width: 40px;
+  height: 75%;
+  align-self: center;
+  margin: 0 10px 0 10px;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+#divNameSubTitle {
+  color: rgb(71, 67, 67);
+}
+#divNameTtile {
+  color: black;
+  font-size: 25px;
+}
+
+#divName {
+  width: 85%;
+  flex-shrink: 0;
+}
+
+#divNameTitle:hover {
+  text-decoration: underline;
+}
+
+#divNameSubTitle:hover {
+  text-decoration: underline;
+}
+
+#divTags {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 13px;
+  border: 2px solid rgb(105, 96, 96);
+  border-radius: 5px;
+  margin: 3px 3px 3px 2px;
+  padding: 2px;
+}
+
+.tag:hover {
+  background-color: rgb(22, 0, 75);
+  color: white;
+}
+#divLocation {
+  width: 20%;
+  flex-shrink: 2;
+}
+
+#divTime {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  flex-shrink: 2;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+@media screen and (max-width: 620px) {
+  #divMainInfo {
+    width: 85%;
+  }
+  #divLocation {
+    display: none;
+  }
+  #divLogo {
+    height: 57px;
+    width: 65px;
+  }
+
+  #divTime {
+    font-size: 15px;
+  }
+
+  #divNameTitle {
+    font-size: 15px;
+  }
+}

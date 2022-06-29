@@ -1,0 +1,41 @@
+@media screen and (max-width: 620px) {
+  #textExploreTitle {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  #textOffreTitle {
+    font-size: 20px;
+  }
+  #textOffreContent {
+    font-size: 18px;
+    box-sizing: border-box;
+    padding-left: 13px;
+    padding-right: 15px;
+  }
+  .textExploreButton {
+    width: 250px;
+  }
+  .textHeaderText {
+    font-size: 60px;
+  }
+  #buttonOffre {
+    width: 70%;
+    font-size: 15px;
+  }
+
+  .tagHeader {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 620px) {
+  #textOffreContent {
+    font-size: 20px;
+  }
+  #buttonOffre {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 505) {
+}
